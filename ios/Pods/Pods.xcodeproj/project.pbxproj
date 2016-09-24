@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA716B62EA192CAE9FBF5FA2EC5F61F /* Pods-Juno-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F2921D75A8710828E030FBEB0B982E /* Pods-Juno-dummy.m */; };
+		3431340E425769660D3A3CA56898CE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3942D092FE5706E3CF8F9AFC7AB7FB7D /* Pods-JunoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77950E31A2B83EFF354BC4CF6D2FC5 /* Pods-JunoTests-dummy.m */; };
+		C24690BEDC1B022145D4FEE291280249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10065F3C915FAD3A6F67F79CBC1F77B2 /* libPods-JunoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JunoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0B12A860104FA9B148978127550144 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		20D5254FC308E8637E37BF06101026CF /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		23430EA92DFE8BF234551463C0A39540 /* libPods-Juno.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Juno.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2627D0B10A819A0A6589A79987B0C9E4 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		2F63A205AAF4453FC5B8B8DAA33E9765 /* Pods-JunoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JunoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D02B243F42C42FCF68D83803F00079C /* Pods-JunoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JunoTests.release.xcconfig"; sourceTree = "<group>"; };
+		43404BBCADCB510C867776328614DBFB /* Pods-JunoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JunoTests-frameworks.sh"; sourceTree = "<group>"; };
+		472C4423DEC53D641C82F8FCD7D0D905 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		4B77950E31A2B83EFF354BC4CF6D2FC5 /* Pods-JunoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JunoTests-dummy.m"; sourceTree = "<group>"; };
+		705A1E5BD357B2FFE7847FB2C96229C4 /* Pods-JunoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JunoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7195E4065835BB161EB5E324BEF36C10 /* Pods-Juno-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Juno-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88914EF9CACB16C6248A812C3E1126DC /* FIRMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRMessaging.h; path = Headers/Public/FIRMessaging.h; sourceTree = "<group>"; };
+		89C9E2FCA886B3A81EE4F3B971A2D68E /* Pods-JunoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JunoTests-resources.sh"; sourceTree = "<group>"; };
+		89CB577C01EDF4960AB62D60E707F501 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		91160EF79B62278F7B951BB88CFFEE3D /* Pods-JunoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JunoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F2921D75A8710828E030FBEB0B982E /* Pods-Juno-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Juno-dummy.m"; sourceTree = "<group>"; };
+		B372E912F7D254802F0C7550BBDA666A /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		C00440DD8BE0E675A1BC2A73C025F628 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		CC32099BC4DB05FCC473A023456BF28A /* Pods-Juno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Juno.release.xcconfig"; sourceTree = "<group>"; };
+		CE4888716D2A83267CEE0DF3FCDA8E60 /* Pods-Juno-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Juno-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E02F8EC18C1522BE2AD4D0D86E74F500 /* Pods-Juno-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Juno-resources.sh"; sourceTree = "<group>"; };
+		E973DE4B829CB1494882FFA38B0AFA2C /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		F2C646CC3573CD7EECABD1F027646B43 /* Pods-Juno-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Juno-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2E3F68C29AC36663C4F81FE234FE9B4 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+		FA05E6EA0E3F3E652CEC861D58E2BE43 /* Pods-Juno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Juno.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD1F30237CEF037AAD04B0AA4368D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3431340E425769660D3A3CA56898CE01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10E8853A92E0CEF8700377F6A3468F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24690BEDC1B022145D4FEE291280249 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFCC4150E618FBE331E73A6660042B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0B12A860104FA9B148978127550144 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23C62B7D3064D98E3927DC5FD0981C9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2E3F68C29AC36663C4F81FE234FE9B4 /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27FD1202B3341CFCFFAFB031210566C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A973C0C9A19E5CD54A509909D9B88E51 /* Pods-Juno */,
+				631C2726D8B81291EE3EAF47700C447B /* Pods-JunoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		464B42A745AD6AEDDA736BDFCC02385B /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				B372E912F7D254802F0C7550BBDA666A /* FIRInstanceID.h */,
+				7F390C43DCC35513087581E7D16A2DBB /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		480AC8666B1587333239BDEFD5A09C61 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E973DE4B829CB1494882FFA38B0AFA2C /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		4B64F1DF9E5A1DC82E30DA24DD5A9BF0 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8137F232B115241C6CB84E9E22629A3A /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		4D295DDD3DF41C4E15F489B6BD260EA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E43525F0F592D2EB2445F72AD839AD6 /* Firebase */,
+				6B996E6307B3991DC5ED177A517E494D /* FirebaseAnalytics */,
+				464B42A745AD6AEDDA736BDFCC02385B /* FirebaseInstanceID */,
+				F67460DCC66A6B43964DD9F786A690AB /* FirebaseMessaging */,
+				4E60C599EFBC7C7E64669F7727B7D445 /* GoogleInterchangeUtilities */,
+				8550173C9C0A593D4C6136EAC8E81FB0 /* GoogleIPhoneUtilities */,
+				ADE0FE92B9C3819605C1D88E46CD24E6 /* GoogleSymbolUtilities */,
+				4B64F1DF9E5A1DC82E30DA24DD5A9BF0 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E60C599EFBC7C7E64669F7727B7D445 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				664BDA1DB86274BA6435FAB19E477153 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		557A2846976C14C26DDB51EAA0F88840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C00440DD8BE0E675A1BC2A73C025F628 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631C2726D8B81291EE3EAF47700C447B /* Pods-JunoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F63A205AAF4453FC5B8B8DAA33E9765 /* Pods-JunoTests-acknowledgements.markdown */,
+				705A1E5BD357B2FFE7847FB2C96229C4 /* Pods-JunoTests-acknowledgements.plist */,
+				4B77950E31A2B83EFF354BC4CF6D2FC5 /* Pods-JunoTests-dummy.m */,
+				43404BBCADCB510C867776328614DBFB /* Pods-JunoTests-frameworks.sh */,
+				89C9E2FCA886B3A81EE4F3B971A2D68E /* Pods-JunoTests-resources.sh */,
+				91160EF79B62278F7B951BB88CFFEE3D /* Pods-JunoTests.debug.xcconfig */,
+				3D02B243F42C42FCF68D83803F00079C /* Pods-JunoTests.release.xcconfig */,
+			);
+			name = "Pods-JunoTests";
+			path = "Target Support Files/Pods-JunoTests";
+			sourceTree = "<group>";
+		};
+		664BDA1DB86274BA6435FAB19E477153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2627D0B10A819A0A6589A79987B0C9E4 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B996E6307B3991DC5ED177A517E494D /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				557A2846976C14C26DDB51EAA0F88840 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		6E43525F0F592D2EB2445F72AD839AD6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				480AC8666B1587333239BDEFD5A09C61 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4D295DDD3DF41C4E15F489B6BD260EA2 /* Pods */,
+				A8CC0A3AEB17F530E2F5FEE7113D95B0 /* Products */,
+				27FD1202B3341CFCFFAFB031210566C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F390C43DCC35513087581E7D16A2DBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89CB577C01EDF4960AB62D60E707F501 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8137F232B115241C6CB84E9E22629A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D5254FC308E8637E37BF06101026CF /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8550173C9C0A593D4C6136EAC8E81FB0 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0FFCC4150E618FBE331E73A6660042B5 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		A8CC0A3AEB17F530E2F5FEE7113D95B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23430EA92DFE8BF234551463C0A39540 /* libPods-Juno.a */,
+				10065F3C915FAD3A6F67F79CBC1F77B2 /* libPods-JunoTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A973C0C9A19E5CD54A509909D9B88E51 /* Pods-Juno */ = {
+			isa = PBXGroup;
+			children = (
+				7195E4065835BB161EB5E324BEF36C10 /* Pods-Juno-acknowledgements.markdown */,
+				F2C646CC3573CD7EECABD1F027646B43 /* Pods-Juno-acknowledgements.plist */,
+				A0F2921D75A8710828E030FBEB0B982E /* Pods-Juno-dummy.m */,
+				CE4888716D2A83267CEE0DF3FCDA8E60 /* Pods-Juno-frameworks.sh */,
+				E02F8EC18C1522BE2AD4D0D86E74F500 /* Pods-Juno-resources.sh */,
+				FA05E6EA0E3F3E652CEC861D58E2BE43 /* Pods-Juno.debug.xcconfig */,
+				CC32099BC4DB05FCC473A023456BF28A /* Pods-Juno.release.xcconfig */,
+			);
+			name = "Pods-Juno";
+			path = "Target Support Files/Pods-Juno";
+			sourceTree = "<group>";
+		};
+		ADE0FE92B9C3819605C1D88E46CD24E6 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F2B96B6DC24D390B8C6791D705B52FC4 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B96B6DC24D390B8C6791D705B52FC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				472C4423DEC53D641C82F8FCD7D0D905 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67460DCC66A6B43964DD9F786A690AB /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				88914EF9CACB16C6248A812C3E1126DC /* FIRMessaging.h */,
+				23C62B7D3064D98E3927DC5FD0981C9E /* Frameworks */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3708428AD7D0AF1EE9A67EFD47C5EF57 /* Pods-Juno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818AF39F820592324D04A619CE096F5D /* Build configuration list for PBXNativeTarget "Pods-Juno" */;
+			buildPhases = (
+				2CEDF6F31E679BC41DC6DC72588BB84F /* Sources */,
+				4DD1F30237CEF037AAD04B0AA4368D80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Juno";
+			productName = "Pods-Juno";
+			productReference = 23430EA92DFE8BF234551463C0A39540 /* libPods-Juno.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5364F664413295DD1A18482615DB1824 /* Pods-JunoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC61C87A78F4FFCC2B281BF431FABC5 /* Build configuration list for PBXNativeTarget "Pods-JunoTests" */;
+			buildPhases = (
+				3EE222697B39D85DAD56F2B5A865FC9A /* Sources */,
+				F10E8853A92E0CEF8700377F6A3468F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JunoTests";
+			productName = "Pods-JunoTests";
+			productReference = 10065F3C915FAD3A6F67F79CBC1F77B2 /* libPods-JunoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A8CC0A3AEB17F530E2F5FEE7113D95B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3708428AD7D0AF1EE9A67EFD47C5EF57 /* Pods-Juno */,
+				5364F664413295DD1A18482615DB1824 /* Pods-JunoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CEDF6F31E679BC41DC6DC72588BB84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA716B62EA192CAE9FBF5FA2EC5F61F /* Pods-Juno-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE222697B39D85DAD56F2B5A865FC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3942D092FE5706E3CF8F9AFC7AB7FB7D /* Pods-JunoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0089E8C32CA2F9A674A005F6EAA9C1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D02B243F42C42FCF68D83803F00079C /* Pods-JunoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		194368F179435CCE6404E50B556721FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA05E6EA0E3F3E652CEC861D58E2BE43 /* Pods-Juno.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B6D462FE4B06ACFA3176542B2654B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91160EF79B62278F7B951BB88CFFEE3D /* Pods-JunoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1AE35760203502DF2EF116CF6F20908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC32099BC4DB05FCC473A023456BF28A /* Pods-Juno.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC61C87A78F4FFCC2B281BF431FABC5 /* Build configuration list for PBXNativeTarget "Pods-JunoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B6D462FE4B06ACFA3176542B2654B89 /* Debug */,
+				0089E8C32CA2F9A674A005F6EAA9C1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818AF39F820592324D04A619CE096F5D /* Build configuration list for PBXNativeTarget "Pods-Juno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194368F179435CCE6404E50B556721FA /* Debug */,
+				E1AE35760203502DF2EF116CF6F20908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

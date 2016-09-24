@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>770438151050-nbqcibni2t16ntve2u8o3e6np38dv6ek.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.770438151050-nbqcibni2t16ntve2u8o3e6np38dv6ek</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCxFhCArBhvYQ8WEeqxtAVJoLqw-w7AGQI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>770438151050</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>bestwebmobile.juno.app.ios</string>
+	<key>PROJECT_ID</key>
+	<string>juno-9f3d2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>juno-9f3d2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:770438151050:ios:7393f18996e93f30</string>
+	<key>DATABASE_URL</key>
+	<string>https://juno-9f3d2.firebaseio.com</string>
+</dict>
+</plist>

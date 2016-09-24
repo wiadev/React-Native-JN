@@ -1,0 +1,52 @@
+{
+  "name": "Juno",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "remotedev": "remotedev --hostname=localhost --port=8000"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "firebase": "^3.3.0",
+    "invariant": "^2.2.1",
+    "lodash": "^4.15.0",
+    "panza": "^2.3.0",
+    "re-base": "^2.1.0",
+    "react": "15.2.1",
+    "react-native": "0.31.0",
+    "react-native-app-intro": "^1.1.4",
+    "react-native-asset-library-to-base64": "^1.0.1",
+    "react-native-controllers": "^2.1.4",
+    "react-native-fbsdk": "^0.3.0",
+    "react-native-fcm": "1.1.0",
+    "react-native-fetch-blob": "^0.9.3",
+    "react-native-gifted-chat": "git://github.com/hammadj/react-native-gifted-chat#64bc635",
+    "react-native-image-picker": "^0.21.5",
+    "react-native-instagram-oauth": "0.0.7",
+    "react-native-keyboard-spacer": "^0.3.0",
+    "react-native-linear-gradient": "^1.5.12",
+    "react-native-navigation": "next",
+    "react-native-parallax-scroll-view": "^0.19.0",
+    "react-native-uploader": "0.0.9",
+    "react-native-vector-icons": "^2.0.3",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-storage": "^4.1.1",
+    "redux-storage-engine-localstorage": "^1.1.2",
+    "redux-thunk": "^2.1.0",
+    "reselect": "^2.5.3",
+    "seamless-immutable": "^6.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.1",
+    "remote-redux-devtools": "^0.4.2",
+    "remotedev-server": "^0.1.7"
+  }
+}
